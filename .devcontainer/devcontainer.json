@@ -1,0 +1,11 @@
+{
+  "name": "Empire Investment",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:20",
+  "updateContentCommand": "cd apps/web && npm ci",
+  "postCreateCommand": "",
+  "forwardPorts": [5173],
+  "portsAttributes": {
+    "5173": { "label": "Vite", "onAutoForward": "openBrowser" }
+  },
+  "features": {}
+}
