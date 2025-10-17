@@ -1,1 +1,9 @@
-apps/web/.env.local
+node_modules/
+.env
+.env.*
+!**/.env.local.example
+.DS_Store
+dist/
+.vercel/
+.output/
+.cache/
