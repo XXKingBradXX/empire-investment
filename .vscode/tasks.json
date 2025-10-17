@@ -1,0 +1,11 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Vite (apps/web)",
+      "type": "shell",
+      "command": "cd apps/web && npm run dev -- --host",
+      "problemMatcher": []
+    }
+  ]
+}
