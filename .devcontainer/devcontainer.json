@@ -2,8 +2,9 @@
   "name": "Empire Investment",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
   "remoteUser": "vscode",
+  "updateContentCommand": "cd apps/web && npm ci || true",
   "onCreateCommand": "mkdir -p $HOME/.config/vscode-dev-containers && touch $HOME/.config/vscode-dev-containers/first-run-notice-already-displayed",
-  "postCreateCommand": "cd apps/web && npm ci || true",
+  "postCreateCommand": "",
   "forwardPorts": [5173],
   "portsAttributes": {
     "5173": { "label": "Vite", "onAutoForward": "openBrowser" }
